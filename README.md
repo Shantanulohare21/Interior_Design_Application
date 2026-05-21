@@ -2,102 +2,192 @@
 
 ### *Where Heritage Meets Elegance*
 
-A premium static website for an Indian luxury interior design company inspired by heritage aesthetics and modern elegance. Designed to provide a sophisticated digital experience for premium interior clients across major metropolitan cities.
+<p align="center">
+  <img src="./assets/hero-preview.png" width="100%" alt="Aangan Interiors Preview"/>
+</p>
+
+<p align="center">
+
+A premium luxury interior design website inspired by Indian heritage aesthetics and modern elegance.
+
+Designed for premium customers across metropolitan cities including **Mumbai, Delhi, Bangalore, and Hyderabad**, the website combines luxury visuals, smooth animations, and intelligent customer interactions.
+
+</p>
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Website:**  
+https://anganinteriorsbizleap.vercel.app/
+
+👉 **Live Preview:** [View Website](https://anganinteriorsbizleap.vercel.app/)
 
 ---
 
 ## 📖 Overview
 
-**Aangan Interiors** blends traditional Indian design elements with modern UI/UX principles to create an immersive luxury interior design showcase.
+**Aangan Interiors** is a premium static website built for an Indian luxury interior design company.
 
-The website focuses on:
+The project blends:
 
-- Premium and responsive UI
-- Smooth animations and transitions
-- Elegant storytelling
+- Indian heritage-inspired aesthetics
+- Modern UI/UX design
+- Smooth animations and interactions
 - Luxury portfolio presentation
-- Interactive customer engagement
+- Responsive experience across devices
+
+The website is crafted to create an elegant digital presence while showcasing premium interior services.
 
 ---
 
 ## 🚀 Features
 
 ### 🏠 Hero Section
-- Full-screen luxury landing section
+
+- Full-screen luxury landing page
 - Animated particle background
+- Premium image collage layout
 - Staggered text animations
-- Premium image collage
+- Smooth transitions and interactions
+
+---
 
 ### 🌿 About Section
-- Heritage-inspired storytelling
-- Animated counters
+
+- Heritage storytelling
+- Animated statistics counters
 - Brand experience showcase
+- Scroll reveal animations
+
+---
 
 ### 🛋 Services Section
-Includes offerings such as:
 
-- Residential Interiors
+Showcases premium offerings including:
+
+- Residential Interior Design
 - Commercial Spaces
-- Luxury Renovations
+- Luxury Renovation
+- Custom Furniture Planning
 - Vastu-Compliant Design Solutions
 
-### 🖼 Portfolio Section
-- Masonry layout
-- Category filtering
-- Responsive project gallery
+---
 
-### 💬 Testimonials
-- Auto-playing review carousel
-- Smooth transitions
-- Premium card UI
+### 🖼 Portfolio Section
+
+- Masonry layout gallery
+- Category-based filtering
+- Responsive design
+- Luxury project showcase
+
+---
+
+### 💬 Testimonials Section
+
+- Auto-playing carousel
+- Smooth animations
+- Premium review cards
+
+---
 
 ### 📞 Contact Section
-- Enquiry form
+
+Includes:
+
+- Detailed enquiry form
 - Google Maps integration
 - Contact information
+- Direct communication options
+
+---
 
 ### 🤖 Smart Integrations
-- WhatsApp Floating CTA
-- Aangan AI Assistant for customer queries
+
+#### WhatsApp CTA
+
+Floating WhatsApp button for instant customer interaction.
+
+#### Aangan AI Assistant
+
+Customer support assistant for:
+
+- Pricing queries
+- Service information
+- Location assistance
+- Vastu consultations
 
 ---
 
 ## 🛠 Tech Stack
 
-- **React.js**
-- **Vite**
-- **Tailwind CSS v4**
-- **Framer Motion**
-- **react-intersection-observer**
+| Technology | Purpose |
+|------------|----------|
+| React.js | Frontend Framework |
+| Vite | Build Tool |
+| Tailwind CSS v4 | Styling |
+| Framer Motion | Animations |
+| react-intersection-observer | Scroll Animations |
+
+---
+
+## 📸 Project Preview
+
+### Hero Section
+
+<p align="center">
+  <img src="./assets/hero-preview.png" width="100%" alt="Hero Preview"/>
+</p>
+
+---
+
+### Contact Section
+
+<p align="center">
+  <img src="./assets/contact-preview.png" width="100%" alt="Contact Preview"/>
+</p>
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-src/
+Aangan-Interiors/
 │
-├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── About.jsx
-│   ├── Services.jsx
-│   ├── Portfolio.jsx
-│   ├── Testimonials.jsx
-│   ├── Contact.jsx
-│   ├── Footer.jsx
-│   ├── LoadingScreen.jsx
-│   ├── WhatsAppButton.jsx
-│   └── AIAssistant.jsx
+├── public/
 │
-├── App.jsx
-├── main.jsx
-└── index.css
+├── assets/
+│   ├── hero-preview.png
+│   └── contact-preview.png
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── LoadingScreen.jsx
+│   │   ├── WhatsAppButton.jsx
+│   │   └── AIAssistant.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
 ---
 
-## ⚙ Installation
+## ⚙ Installation & Setup
 
 Clone the repository:
 
@@ -105,7 +195,7 @@ Clone the repository:
 git clone https://github.com/your-username/aangan-interiors.git
 ```
 
-Go to project folder:
+Move into project directory:
 
 ```bash
 cd aangan-interiors
@@ -117,13 +207,13 @@ Install dependencies:
 npm install
 ```
 
-Run development server:
+Start development server:
 
 ```bash
 npm run dev
 ```
 
-Open:
+Application runs at:
 
 ```bash
 http://localhost:5173
@@ -131,17 +221,59 @@ http://localhost:5173
 
 ---
 
-## 🚀 Build for Production
+## 🚀 Production Build
+
+Create production build:
 
 ```bash
 npm run build
 ```
 
-Preview build:
+Preview production build:
 
 ```bash
 npm run preview
 ```
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+✅ Desktop  
+✅ Laptop  
+✅ Tablet  
+✅ Mobile Devices  
+
+---
+
+## 🎯 Target Audience
+
+Designed for:
+
+- Premium Interior Clients
+- Luxury Home Owners
+- Residential Projects
+- Commercial Luxury Spaces
+- Metropolitan Customers
+
+Target cities:
+
+📍 Mumbai  
+📍 Delhi  
+📍 Bangalore  
+📍 Hyderabad  
+
+---
+
+## 🚀 Deployment
+
+The project is deployed on **Vercel**.
+
+Live Link:
+
+https://anganinteriorsbizleap.vercel.app/
 
 ---
 
@@ -153,4 +285,10 @@ B.Tech Student • Web Developer
 
 ---
 
+<p align="center">
+
 ### *Where Heritage Meets Elegance*
+
+⭐ If you like this project, consider giving it a star.
+
+</p>
