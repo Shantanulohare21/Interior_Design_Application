@@ -1,74 +1,156 @@
-# Aangan Interiors 🏛️✨
+# ✨ Aangan Interiors
 
-Where Heritage Meets Elegance. A premium static website for an Indian luxury interior design company, targeting affluent customers in major metropolitan areas like Mumbai, Delhi, Bangalore, and Hyderabad.
+### *Where Heritage Meets Elegance*
 
-## 🎨 Design Philosophy
-The aesthetic is built on **Indian luxury**.
-- **Colors**: Deep jewel tones (Burgundy `#6B1E2E`), Antique Gold (`#C9A84C`), Ivory (`#FAF6EE`), and Charcoal (`#1C1C1C`).
-- **Typography**: `Cormorant Garamond` for elegant, opulent headings, balanced with `DM Sans` for clean, readable body text.
-- **Motifs**: subtle Indian design elements like paisley and lotus SVG dividers, complemented with smooth scroll behavior, micro-animations, and gold shimmer effects.
-
-## 🚀 Key Features
-1. **Hero Section**: Full-height viewport with custom particle canvas background, staggered text animations, and an elegant image collage.
-2. **About Us**: Blends heritage storytelling with modern layouts, showcasing experience via smooth animated statistical counters.
-3. **Services & Portfolio**: Masonry layout portfolio with categorical filtering and dark-themed service cards highlighting uniquely Indian offerings like Vastu-compliance.
-4. **Testimonials**: Auto-playing review carousel featuring custom UI and Indian names.
-5. **Contact**: Detailed enquiry form and embedded Google Maps alongside direct contact information.
-6. **Smart Integrations**:
-   - Floating WhatsApp Call-to-Action.
-   - **Aangan AI Assistant**: An integrated chat interface on the bottom left designed to instantly help customers with queries regarding pricing, locations, and Vastu.
-
-## 🛠️ Technology Stack
-- **React.js**: Functional UI components and state management.
-- **Vite**: State-of-the-art fast frontend build tool.
-- **Tailwind CSS v4**: For highly customized, responsive, utility-first styling with native CSS variables embedded via `@theme`.
-- **Framer Motion**: Powering complex UI orchestrations (scroll reveals, staggered fade-ins, animated components).
-- **react-intersection-observer**: For triggering high-performance animations purely based on viewport scroll depth.
-
-## 📦 Running the Project Locally
-
-To run this project on your local machine:
-
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-2. **Start the Development Server**
-   ```bash
-   npm run dev
-   ```
-
-3. **View the Application**
-   Open your browser and navigate to `http://localhost:5173/`. 
-
-## 📁 Project Structure
-
-```
-├── public/                 # Static assets (favicons, etc.)
-├── src/
-│   ├── components/         # Modular UI segments
-│   │   ├── Navbar.jsx      
-│   │   ├── Hero.jsx        
-│   │   ├── About.jsx       
-│   │   ├── Services.jsx
-│   │   ├── Portfolio.jsx
-│   │   ├── Testimonials.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── LoadingScreen.jsx
-│   │   ├── WhatsAppButton.jsx
-│   │   └── AIAssistant.jsx # Smart customer support bot
-│   ├── App.jsx             # Main layout orchestrator
-│   ├── index.css           # Tailwind v4 directives and custom global aesthetics
-│   └── main.jsx            # React mounting point
-├── index.html              # Main HTML entry containing custom SEO elements and Font imports
-├── package.json            
-└── vite.config.js          
-```
-
-## ✒️ Customizations
-Modify the core theme directly inside `src/index.css` under the `@theme` block. Update the Unsplash image sources within `Hero.jsx`, `About.jsx`, and `Portfolio.jsx` to adapt the visual assets to standard corporate photography if moving to production.
+A premium static website for an Indian luxury interior design company inspired by heritage aesthetics and modern elegance. Designed to provide a sophisticated digital experience for premium interior clients across major metropolitan cities.
 
 ---
-*Built with modern web standards to deliver an opulent user experience.*
+
+## 📖 Overview
+
+**Aangan Interiors** blends traditional Indian design elements with modern UI/UX principles to create an immersive luxury interior design showcase.
+
+The website focuses on:
+
+- Premium and responsive UI
+- Smooth animations and transitions
+- Elegant storytelling
+- Luxury portfolio presentation
+- Interactive customer engagement
+
+---
+
+## 🚀 Features
+
+### 🏠 Hero Section
+- Full-screen luxury landing section
+- Animated particle background
+- Staggered text animations
+- Premium image collage
+
+### 🌿 About Section
+- Heritage-inspired storytelling
+- Animated counters
+- Brand experience showcase
+
+### 🛋 Services Section
+Includes offerings such as:
+
+- Residential Interiors
+- Commercial Spaces
+- Luxury Renovations
+- Vastu-Compliant Design Solutions
+
+### 🖼 Portfolio Section
+- Masonry layout
+- Category filtering
+- Responsive project gallery
+
+### 💬 Testimonials
+- Auto-playing review carousel
+- Smooth transitions
+- Premium card UI
+
+### 📞 Contact Section
+- Enquiry form
+- Google Maps integration
+- Contact information
+
+### 🤖 Smart Integrations
+- WhatsApp Floating CTA
+- Aangan AI Assistant for customer queries
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Vite**
+- **Tailwind CSS v4**
+- **Framer Motion**
+- **react-intersection-observer**
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Portfolio.jsx
+│   ├── Testimonials.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── LoadingScreen.jsx
+│   ├── WhatsAppButton.jsx
+│   └── AIAssistant.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/aangan-interiors.git
+```
+
+Go to project folder:
+
+```bash
+cd aangan-interiors
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🚀 Build for Production
+
+```bash
+npm run build
+```
+
+Preview build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 👨‍💻 Developer
+
+**Shantanu Lohare**
+
+B.Tech Student • Web Developer
+
+---
+
+### *Where Heritage Meets Elegance*
