@@ -3,10 +3,6 @@
 ### *Where Heritage Meets Elegance*
 
 <p align="center">
-  <img src="./assets/hero-preview.png" width="100%" alt="Aangan Interiors Preview"/>
-</p>
-
-<p align="center">
 
 A premium luxury interior design website inspired by Indian heritage aesthetics and modern elegance.
 
@@ -135,17 +131,14 @@ Customer support assistant for:
 
 ### Hero Section
 
-<p align="center">
-  <img src="./assets/hero-preview.png" width="100%" alt="Hero Preview"/>
-</p>
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7a51a773-1603-488d-9362-467961c5bfbe" />
+
 
 ---
 
 ### Contact Section
 
-<p align="center">
-  <img src="./assets/contact-preview.png" width="100%" alt="Contact Preview"/>
-</p>
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f2218dfd-971c-4216-a698-14e391b9c5e9" />
 
 ---
 
